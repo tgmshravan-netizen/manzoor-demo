@@ -1,0 +1,274 @@
+:root {
+  --dark-color1: #111111;
+  --dark-color2: #232323;
+  --dark-color3: #343434;
+  --dark-color4: #212529;
+}
+
+body,
+.header-top-area,
+.sticky-header.fixed-header,
+.header-three-area.menu-fixed,
+.main-header,
+.contact-section-two .form-column .inner-column,
+.pricing-block-five .inner-box.active .icon {
+  background-color: var(--dark-color1);
+}
+
+.about-section-five,
+.header-two__wrp {
+  border-color: var(--dark-color1);
+}
+
+.page-wrapper,
+.bg-dark,
+.btn-style-three {
+  background-color: #000;
+}
+
+.main-header .header-lower,
+.header-area.menu-fixed,
+.header-two__wrp,
+.feature-block .inner-box,
+.testimonial-block .inner-box .content-box {
+  background-color: var(--bg-theme-color2);
+}
+
+.banners-section-two,
+.brand-area,
+.blog-block .inner-box .content-box,
+.service-block-two .inner-box,
+.pricing-block .inner-box,
+.product-block .content,
+.team-block .content,
+.contact-section-two .form-column .inner-column form input,
+.contact-section-two .form-column .inner-column form textarea,
+.service-block-three .inner-box,
+.banner-four__product,
+.about-section-four .outer-box::after,
+.funfact-section-four .outer-box,
+.calendar-block .inner-box .calendar,
+.bg-sub,
+.marquee-five-area,
+.pricing-block-five .inner-box,
+.product-block-three .inner-box .image,
+.faq-section .content-column .inner-column,
+.contact-section-two select.nice-select,
+.feature-arrys .wrp,
+.feature-arrys button {
+  background-color: var(--dark-color2) !important;
+}
+
+.banner-five-area {
+  background: var(--dark-color2);
+}
+
+.package-tab ul.nav.nav-tabs li.nav-item a.nav-link .icon-box .icon-bg path,
+.service-block .inner-box .icon-box .icon-bg path,
+.about-section-two .content-column .inner-column .inner-box .icon-box .icon-bg,
+.step-block .inner-box.active .icon-box .icon-bg path,
+.service-block-five .inner-box .icon-box .icon-bg path,
+.step-block .inner-box .icon-box .icon-bg path,
+.feature-block-six .inner-box .icon-box .icon-bg path {
+  fill: var(--dark-color2);
+}
+
+.border-color-dark2,
+.product-block .inner-box,
+.pricing-block .inner-box {
+  border-color: var(--dark-color2) !important;
+}
+
+.bg-dark-3,
+.testimonial-section .slider-arrys button,
+.team-section .slider-arry button,
+.pricing-block-five .inner-box .icon,
+.accordion .accordion-button::before,
+.product-block .image {
+  background-color: var(--dark-color3);
+}
+
+.main-header .header-lower .logo-box:before {
+  background-color: var(--dark-color4);
+}
+
+.main-menu .navigation > li > a,
+.list-style-one li,
+.main-header .header-top .inner-container .top-left .list-style-one li a,
+.header-style-two .sticky-header-style-two .navigation li a,
+.list-style-two li {
+  color: var(--text-color);
+}
+
+.main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li:hover > a,
+.header__main .main-menu ul li a,
+.header__main .menu-btns .search-trigger,
+.main-header .header-lower .outer-box .ui-btn,
+.mobile-nav-toggler,
+.sticky-header .mobile-nav-toggler,
+.banner-section-one .content-box .title,
+.section-header .title,
+.section-header__flex .title,
+.feature-block .inner-box .content-box .title,
+.video-section .video-column .inner-box .list .title,
+.package-tab ul.nav.nav-tabs li.nav-item a.nav-link .title,
+.package-block .inner-box .content .title a,
+.package-block .inner-box .content .title,
+.testimonial-block .inner-box .content-box .head .title,
+.blog-block .inner-box .content-box .info span,
+.blog-block .inner-box .content-box .title,
+.blog-block .inner-box .content-box .readMore-btn,
+.service-block .inner-box .title a,
+.about-section-two .content-column .inner-column .inner-box .title,
+.service-block-two .inner-box .content .title,
+.pricing-block .inner-box .price,
+.pricing-block .inner-box .sub-title,
+.product-block .content .title,
+.testimonial-block-two .inner-box .text,
+.testimonial-block-two .inner-box .info .title,
+.team-block .title,
+.nice-select,
+.funfact-block .inner-box .title,
+.team-section .slider-arry button,
+.service-block-three .inner-box .content .title,
+.product-block-three .inner-box .content .title,
+.pricing-block .inner-box .title,
+.service-block-four .inner-box .title,
+.banner-four__product .item .content .title,
+.about-section-four .right-column .inner-column .content-box .title,
+.funfact-block-four .inner-box .title,
+.newsletter-block .inner-box .title,
+.service-block-five .inner-box .title,
+.step-block .inner-box .title,
+.pricing-block-five .inner-box .price,
+.banner-five__content .title,
+.banner-six__content .title span,
+.banner-six__content .sub-title,
+.banner-six__content .title,
+.feature-block-six .inner-box .title,
+.accordion .accordion-button.collapsed,
+.accordion .accordion-item h2 button,
+.accordion .accordion-button::before,
+.accordion .accordion-button.collapsed::before,
+.blog-block-two .inner-box .content .title a,
+.blog-block-two .inner-box .content .readMore-btn,
+.feature-arrys button {
+  color: #fff;
+}
+
+.header__main .menu-btns .shop-cart path,
+.banner-five__content .info .video-btn path,
+.banner-six__content .sub-title path {
+  fill: #fff;
+}
+
+.clients-section.alternate {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.pricing-block .inner-box ul li,
+.newsletter-block .inner-box ul li p,
+.newsletter-block .inner-box ul li span,
+.calendar-block .inner-box .calendar .calendar-body .calendar-weekdays li,
+.pricing-block-five .inner-box ul li,
+.blog-block-two .inner-box .content .info span {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.banner-five__content .info .video-btn {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.header-style-two-new .info-btn-two i.icon {
+  background-color: var(--dark-color2);
+  color: var(--theme-color-light);
+}
+
+.marquee-two .text {
+  -webkit-text-fill-color: var(--theme-color-light);
+  -webkit-text-stroke: 1px var(--theme-color-light);
+}
+
+.main-menu .navigation > li:before {
+  background-color: #fff;
+}
+
+.bgc-unset {
+  background-color: unset;
+}
+
+.bgi-unset,
+.testimonial-section-three,
+.pricing-section-three .outer-box {
+  background-image: unset;
+}
+
+.marquee__item h2,
+.marquee-five__item h2,
+.marquee-four__item h2 {
+  -webkit-text-stroke: 1px #fff;
+}
+
+.banner-six-area {
+  background-image: none !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.op015,
+.about-section .shape1 img {
+  opacity: 0.15;
+}
+
+.op003 {
+  opacity: 0.03;
+}
+
+.section__decoration-top::before,
+.section__decoration-bottom::after,
+.service-section .shape1 img {
+  opacity: 0.1;
+}
+
+.why-choose-us-two {
+  opacity: 0.21;
+}
+
+.clients-carousel .slide-item img {
+  -webkit-filter: brightness(10);
+          filter: brightness(10);
+  opacity: 1;
+}
+
+.brand__item img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.pricing-section-four .leaf1 {
+  -webkit-filter: invert(0.4);
+          filter: invert(0.4);
+}
+
+.banner-section-one .shape-image-curve {
+  -webkit-filter: invert(0.9);
+          filter: invert(0.9);
+}
+
+.service-block-six .inner-box .shape-btn svg path {
+  fill: var(--dark-color3) !important;
+}
+
+.banner-style1-home5 .banner-bottom {
+  -webkit-filter: brightness(0);
+          filter: brightness(0);
+}
+
+.banner-style1-home5 .leaf-1 {
+  -webkit-filter: brightness(0.2);
+          filter: brightness(0.2);
+}
