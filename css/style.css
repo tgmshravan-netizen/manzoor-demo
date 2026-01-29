@@ -7841,7 +7841,7 @@ textarea.form-control {
   margin-bottom: 5px;
 }
 .package-block .inner-box .content .title a {
-  font-size: 22px;
+  font-size: 19px;
   white-space: nowrap;
 }
 .package-block .inner-box .content .title a:hover {
@@ -7853,7 +7853,7 @@ textarea.form-control {
   font-weight: 400;
 }
 .package-block .inner-box .content .title .line {
-  width: 100%;
+  width: 6%;
   height: 1px;
   background-color: #e2e2e2;
 }

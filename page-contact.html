@@ -279,10 +279,10 @@
     <section class="page-title" style="background-image: url(images/bg/page-title-bg.jpg);">
       <div class="auto-container">
         <div class="title-outer text-center">
-          <h1 class="title">Contact Us</h1>
+          <h1 class="title">Contact Manzoor Khan</h1>
           <ul class="page-breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li>Contact Us</li>
+            <li>Contact Manzoor Khan</li>
           </ul>
         </div>
       </div>
@@ -295,8 +295,8 @@
         <div class="row">
           <div class="col-xl-7 col-lg-6">
             <div class="sec-title mb-50">
-              <span class="sub-title">Enroll in our Academy</span>
-              <h2>Let's Start Your Beauty Career</h2>
+              <span class="sub-title">Get in Touch for Booking & Inquiries</span>
+              <h2>Book Your Makeup & Hair Styling Service</h2>
             </div>
             <!-- Contact Form -->
             <form id="contact_form" name="contact_form" action="includes/sendmail.php" method="post">
@@ -315,7 +315,14 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Which Program?">
+                    <select name="form_event_type" class="form-control required">
+                      <option value="">Select Event Type</option>
+                      <option value="Bridal">Bridal</option>
+                      <option value="Party">Party</option>
+                      <option value="Photoshoot">Photoshoot</option>
+                      <option value="Commercial">Commercial</option>
+                      <option value="Other">Other</option>
+                    </select>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -324,12 +331,24 @@
                   </div>
                 </div>
               </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="mb-3">
+                    <input name="form_event_date" class="form-control" type="date" placeholder="Event Date">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="mb-3">
+                    <input name="form_location" class="form-control" type="text" placeholder="Event Location">
+                  </div>
+                </div>
+              </div>
               <div class="mb-3">
-                <textarea name="form_message" class="form-control required" rows="7" placeholder="Tell us about your interest in professional makeup training..."></textarea>
+                <textarea name="form_message" class="form-control required" rows="7" placeholder="Tell us about your requirements"></textarea>
               </div>
               <div class="mb-5">
                 <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn-one me-2 mb-3 mb-sm-0" data-loading-text="Please wait..."><span class="btn-title">Send Inquiry</span></button>
+                <button type="submit" class="btn-one me-2 mb-3 mb-sm-0" data-loading-text="Please wait..."><span class="btn-title">Send Message</span></button>
                 <button type="reset" class="btn-two bg-theme-color5"><span class="btn-title">Clear Form</span></button>
               </div>
             </form>
@@ -339,36 +358,55 @@
           <div class="col-xl-5 col-lg-6">
             <div class="contact-details__right">
               <div class="sec-title">
-                <span class="sub-title">Connect with us</span>
-                <h2>Academy Information</h2>
-                <div class="text">Join Manzoor Khan Academy for professional training from Bollywood's most experienced makeup artist. Enroll today and transform your passion into a thriving career.</div>
+                <span class="sub-title">Direct Contact</span>
+                <h2>Reach Out to Manzoor Khan</h2>
+                <div class="text">Ready to experience Bollywood-level artistry for your wedding, party, or special event? Reach out to Manzoor Khan for booking inquiries, pricing details, or any questions about makeup and hair styling services.</div>
               </div>
               <ul class="list-unstyled contact-details__info">
-                <li class="d-block d-sm-flex align-items-sm-center ">
-                  <div class="icon">
-                    <span class="fa-classic fa-light fa-phone-plus fa-fw"></span>
-                  </div>
-                  <div class="text ml-xs--0 mt-xs-10">
-                    <h6>Have any question?</h6>
-                    <a href="tel:+971552249855"><span>Call us</span> +971 55 3249855</a>
-                  </div>
-                </li>
                 <li class="d-block d-sm-flex align-items-sm-center ">
                   <div class="icon">
                     <span class="fa-classic fa-light fa-envelope fa-fw"></span>
                   </div>
                   <div class="text ml-xs--0 mt-xs-10">
-                    <h6>Write email</h6>
-                    <a href="mailto:info@manzoorkhanacademy.com">info@manzoorkhanacademy.com</a>
+                    <h6>Email</h6>
+                    <a href="mailto:manzoorkhanacademy@gmail.com">manzoorkhanacademy@gmail.com</a>
                   </div>
                 </li>
                 <li class="d-block d-sm-flex align-items-sm-center ">
                   <div class="icon">
-                    <span class="fa-classic fa-light fa-location-dot fa-fw"></span>
+                    <span class="fa-classic fa-light fa-phone-plus fa-fw"></span>
                   </div>
                   <div class="text ml-xs--0 mt-xs-10">
-                    <h6>Visit us</h6>
-                    <span>The Prism Dubai, Dubai, UAE</span>
+                    <h6>Call India</h6>
+                    <a href="tel:+919821359754"><span>Call us</span> +91 9821359754</a>
+                  </div>
+                </li>
+                <li class="d-block d-sm-flex align-items-sm-center ">
+                  <div class="icon">
+                    <span class="fa-classic fa-light fa-phone-plus fa-fw"></span>
+                  </div>
+                  <div class="text ml-xs--0 mt-xs-10">
+                    <h6>Call Dubai</h6>
+                    <a href="tel:+971553249855"><span>Call us</span> +971 55324 9855</a>
+                  </div>
+                </li>
+                <li class="d-block d-sm-flex align-items-sm-center ">
+                  <div class="icon">
+                    <span class="fa-classic fa-light fa-message fa-fw"></span>
+                  </div>
+                  <div class="text ml-xs--0 mt-xs-10">
+                    <h6>WhatsApp</h6>
+                    <span>Available on both numbers for instant booking and quick responses</span>
+                  </div>
+                </li>
+                <li class="d-block d-sm-flex align-items-sm-center ">
+                  <div class="icon">
+                    <span class="fa-brands fa-instagram fa-fw"></span>
+                  </div>
+                  <div class="text ml-xs--0 mt-xs-10">
+                    <h6>Follow on Social Media</h6>
+                    <a href="https://instagram.com/manzoorkhantherealguru">@manzoorkhantherealguru</a><br>
+                    <span>732K+ Followers - See latest celebrity work, bridal transformations, behind-the-scenes content, and booking availability updates.</span>
                   </div>
                 </li>
               </ul>
@@ -384,6 +422,43 @@
       <iframe class="map w-100" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
     </section>
     <!--End Map Section-->
+
+    <!-- Business Hours Section -->
+    <section class="business-hours pt-100 pb-100 bg-sub-two">
+      <div class="container">
+        <div class="section-header mb-60 center">
+          <h4 class="sub-title">
+            <svg class="icon" width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_475)">
+                <path d="M12.5 17.6875C12.3459 17.6875 12.199 17.6187 12.1 17.5C8.47609 13.15 8.47609 8.16143 12.1 3.81143C12.2969 3.57393 12.7021 3.57393 12.9 3.81143C16.524 8.16143 16.524 13.15 12.9 17.5C12.8011 17.6187 12.6542 17.6875 12.5 17.6875Z" fill="#E7A391" />
+              </g>
+            </svg>
+            Business Hours
+          </h4>
+          <h2 class="title">When We're Available</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="hours-card">
+              <div class="hours-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="hours-content">
+                <h3>Booking Hours</h3>
+                <p>Available 7 days a week for event bookings</p>
+                <h3>Service Hours</h3>
+                <p>Flexible timing based on your event schedule</p>
+                <p>Early morning bridal services available</p>
+                <p>Late-night event services accommodated</p>
+                <h3>Response Time</h3>
+                <p>WhatsApp and phone inquiries typically answered within 2-4 hours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Business Hours Section -->
 
     <!-- Footer area start here -->
     <footer class="footer-two-area">
@@ -412,31 +487,28 @@
             <div class="footer__item">
               <div class="footer-about">
                 <div>
-                  <p class="text">Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget egestas magna mi ut arcu.</p>
+                  <p class="text">Transform your look with Bollywood's leading makeup artist. Professional makeup and hair styling services for weddings, parties, and special events.</p>
                   <div class="socials">
-                    <a href="#0">
-                      <svg width="22" height="23" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.827 10.8382L23.9337 0.252441H21.7757L13.8684 9.44394L7.55282 0.252441H0.268555L9.81894 14.1516L0.268555 25.2524H2.42667L10.777 15.5459L17.4467 25.2524H24.731L14.8265 10.8382H14.827ZM11.8712 14.2741L10.9035 12.89L3.20427 1.87703H6.51901L12.7324 10.7649L13.7001 12.1489L21.7767 23.7017H18.462L11.8712 14.2746V14.2741Z" fill="white" />
-                      </svg>
+                    <a href="https://instagram.com/manzoorkhantherealguru" target="_blank">
+                      <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#0"><i class="fa-brands fa-pinterest-p"></i></a>
-                    <a href="#0"><i class="fa-brands fa-vimeo-v"></i></a>
+                    <a href="https://wa.me/971553249855" target="_blank">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </a>
                   </div>
                 </div>
-                <p class="copyright-text">&copy; 2025 <a href="index.html">Sparelx</a>, All Rights Reserved
+                <p class="copyright-text">&copy; 2025 <a href="index.html">Manzoor Khan Academy</a>, All Rights Reserved
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-xl-2">
             <div class="footer__item">
-              <h3 class="title">Links</h3>
+              <h3 class="title">Quick Links</h3>
               <ul class="links">
-                <li><a href="#0">About</a></li>
-                <li><a href="#0">Pricing</a></li>
-                <li><a href="#0">Shop</a></li>
-                <li><a href="#0">Contact</a></li>
+                <li><a href="page-about.html">About</a></li>
+                <li><a href="page-services.html">Services</a></li>
+                <li><a href="page-contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -444,19 +516,20 @@
             <div class="footer__item">
               <h3 class="title">Contact</h3>
               <ul class="links">
-                <li><a href="#0">The Prism Dubai, Dubai, UAE</a></li>
-                <li><a href="#0">+971 55 3249855</a></li>
-                <li><a href="#0">info@manzoorkhanacademy.com</a></li>
+                <li><a href="mailto:manzoorkhanacademy@gmail.com">manzoorkhanacademy@gmail.com</a></li>
+                <li><a href="tel:+919821359754">+91 9821359754</a></li>
+                <li><a href="tel:+971553249855">+971 55324 9855</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md-6 col-xl-3">
             <div class="footer__item">
-              <h3 class="title">Open Hours</h3>
-              <ul class="time-table">
-                <li>Monday to Friday : <span>09:00-20:00</span> </li>
-                <li>Saturday: <span>09:00-18:00</span></li>
-                <li>Sunday: <span>09:00-18:00</span></li>
+              <h3 class="title">Service Areas</h3>
+              <ul class="links">
+                <li>Dubai, UAE</li>
+                <li>Mumbai, India</li>
+                <li>All India</li>
+                <li>International</li>
               </ul>
             </div>
           </div>
