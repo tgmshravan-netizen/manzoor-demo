@@ -3773,7 +3773,7 @@ figure {
   color: var(--theme-color-white);
   font-size: 18px;
   -webkit-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.0509803922);
-          box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.0509803922);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.0509803922);
   position: fixed;
   z-index: 99;
   right: 30px;
@@ -3891,6 +3891,12 @@ Scroll To Top style
 .progress__title span {
   color: var(--theme-color1);
   font-size: 16px;
+}
+
+/* Highlight informative content */
+.highlight {
+  color: black;
+  font-weight: bold;
 }
 
 /*=== Default Form ===*/
