@@ -41,6 +41,8 @@ CSS TABLE OF CONTENTS
 @import url("jquery.datetimepicker.min.css");
 @import url("_choose-section.css");
 @import url("_service-carousel.css");
+
+/* 01. abstracts */
 :root {
   --theme-color-light: #ffffff;
   --theme-color-white: #ffffff;
@@ -94,6 +96,7 @@ CSS TABLE OF CONTENTS
   /* outline: 2px solid red; */
 }
 
+/* 02. base */
 body {
   margin: 0;
   padding: 0;
@@ -2215,6 +2218,7 @@ figure {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+/* 2.02 --> animation */
 @-webkit-keyframes sway {
   0% {
     -webkit-transform: translateX(-20px);
@@ -3670,11 +3674,11 @@ figure {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
 }
 .btn-three:hover::after {
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 .btn-video {
   position: relative;
@@ -3861,6 +3865,7 @@ Scroll To Top style
   color: #ffffff;
 }
 
+/* 3.02 --> progress */
 .progress-area .progress {
   background-color: rgba(var(--theme-color-black-rgb), 0.1);
   height: 8px;
@@ -4212,6 +4217,7 @@ textarea.form-control {
   width: 100%;
 }
 
+/* 3.04 --> header */
 .header-top-area {
   overflow: hidden;
   background-color: var(--theme-color-black);
@@ -4956,6 +4962,7 @@ textarea.form-control {
 }
 @media (max-width: 767px) {
   .banner__content {
+    height: 40vh !important;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -7793,8 +7800,8 @@ textarea.form-control {
     gap: 10px;
   }
   .package-tab ul.nav.nav-tabs li.nav-item a.nav-link .icon-bg {
-    width: 30px;
-    height: 30px;
+    width: 90px;
+    height: 90px;
   }
   .package-tab ul.nav.nav-tabs li.nav-item a.nav-link .icon {
     width: 18px;
@@ -7837,14 +7844,14 @@ textarea.form-control {
   margin-bottom: 5px;
 }
 .package-block .inner-box .content .title a {
-  font-size: 19px;
+  font-size: 18px;
   white-space: nowrap;
 }
 .package-block .inner-box .content .title a:hover {
   color: var(--theme-color1);
 }
 .package-block .inner-box .content .title span {
-  font-size: 16px;
+  font-size: 12px;
   color: var(--text-color);
   font-weight: 400;
 }
