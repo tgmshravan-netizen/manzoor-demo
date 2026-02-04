@@ -172,9 +172,9 @@
 
 @media (max-width:991px){
   .choose-section .choose-grid{flex-direction:column}
-  .choose-section .choose-card.large{min-height:260px}
+  .choose-section .choose-card.large{min-height: 380px;}
 }
 @media (max-width:480px){
   .choose-section .choose-card{padding:18px;border-radius:12px}
-  .choose-section .choose-card.small{min-height:120px}
+  .choose-section .choose-card.small{min-height: 370px;}
 }
