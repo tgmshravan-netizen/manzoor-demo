@@ -41,6 +41,7 @@ CSS TABLE OF CONTENTS
 @import url("jquery.datetimepicker.min.css");
 @import url("_choose-section.css");
 @import url("_service-carousel.css");
+@import url("_pricing-responsive.css");
 
 /* 01. abstracts */
 :root {
@@ -1859,7 +1860,7 @@ figure {
 .stats-number {
   font-size: 60px;
   font-weight: 700;
-  color: var(--theme-color1, #E7A391);
+  color: var(--theme-color1, #d9bb73);
   line-height: 1.2;
   margin-bottom: 15px;
   font-family: var(--heading-font, inherit);
@@ -1871,7 +1872,7 @@ figure {
 
 .stats-number span:not(.count) {
   font-size: 60px;
-  color: var(--theme-color1, #E7A391);
+  color: var(--theme-color1, #d9bb73);
 }
 
 .stats-label {
@@ -11984,7 +11985,7 @@ Page Title
   width: 100%;
 }
 .service-sidebar .service-sidebar-single {
-  height:135vh;
+  height:155vh;
   position: relative;
   display: block;
   margin-bottom: 30px;
@@ -12010,7 +12011,7 @@ Page Title
 }
 .service-sidebar .service-sidebar-single-services .title h3 {
   color: var(--headings-color);
-  font-size: 20px;
+  font-size: 10px;
   line-height: 30px;
   letter-spacing: -0.02em;
 }

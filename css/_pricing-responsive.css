@@ -1,0 +1,234 @@
+/* Responsive Pricing Grid Layout */
+
+.pricing-section .pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.pricing-section .pricing-package {
+  width: 100%;
+}
+
+.pricing-section .pricing-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: all 0.3s ease;
+  border: 2px solid #e8e8e8;
+}
+
+.pricing-section .pricing-package:first-child .pricing-card {
+  border: 2px solid #d9bb73;
+}
+
+.pricing-section .pricing-card:hover {
+  box-shadow: 0 8px 25px rgba(217, 187, 115, 0.15);
+  transform: translateY(-5px);
+  border-color: #d9bb73;
+}
+
+.pricing-section .pricing-header {
+  padding: 20px;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.pricing-section .package-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1c1a1d;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.pricing-section .pricing-package:first-child .package-title {
+  color: #d9bb73;
+}
+
+.pricing-section .package-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.pricing-section .pricing-card:hover .package-title a {
+  color: #d9bb73;
+}
+
+.pricing-section .pricing-body {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pricing-section .pricing-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.pricing-section .price-label {
+  flex-basis: 100%;
+  width: 100%;
+}
+
+.pricing-section .pricing-info .price-row {
+  display: flex;
+  flex: 1;
+  min-width: 50px;
+  align-items: center;
+}
+
+.pricing-section .pricing-info .price-row .price-line {
+  white-space: normal;
+  font-size: 14px;
+}
+
+.pricing-section .price-label {
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.pricing-section .price-row {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.pricing-section .price-row .price-line {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.pricing-section .package-description {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.pricing-section .pricing-footer {
+  padding: 16px 20px;
+  border-top: 1px solid #f5f5f5;
+  background: #fafafa;
+}
+
+.pricing-section .btn-booking {
+  width: 100%;
+  padding: 12px 20px;
+  background: #1c1a1d;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.pricing-section .btn-booking:hover {
+  background: #d9bb73;
+  color: #000;
+}
+
+/* Tablet Responsive (2 columns) */
+@media (max-width: 1199px) {
+  .pricing-section .pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Mobile Responsive (1 column) */
+@media (max-width: 768px) {
+  .pricing-section .pricing-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .pricing-section .pricing-card {
+    border-radius: 14px;
+  }
+
+  .pricing-section .pricing-header {
+    padding: 16px;
+  }
+
+  .pricing-section .pricing-body {
+    padding: 16px;
+  }
+
+  .pricing-section .package-title {
+    font-size: 16px;
+  }
+
+  .pricing-section .package-description {
+    font-size: 12px;
+  }
+
+  .pricing-section .pricing-footer {
+    padding: 12px 16px;
+  }
+
+  .pricing-section .btn-booking {
+    padding: 10px 16px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+}
+
+/* Small Mobile (< 480px) */
+@media (max-width: 480px) {
+  .pricing-section .pricing-grid {
+    gap: 12px;
+  }
+
+  .pricing-section .pricing-card {
+    border-radius: 12px;
+  }
+
+  .pricing-section .pricing-header {
+    padding: 12px;
+  }
+
+  .pricing-section .pricing-body {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .pricing-section .package-title {
+    font-size: 15px;
+  }
+
+  .pricing-section .price-label {
+    font-size: 11px;
+  }
+
+  .pricing-section .price-row .price-line {
+    font-size: 14px;
+  }
+
+  .pricing-section .package-description {
+    font-size: 11px;
+  }
+
+  .pricing-section .pricing-footer {
+    padding: 10px 12px;
+  }
+
+  .pricing-section .btn-booking {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
