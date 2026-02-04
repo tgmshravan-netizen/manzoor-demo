@@ -6180,7 +6180,9 @@ textarea.form-control {
 }
 @media (max-width: 575px) {
   .about-section-three .image-column .inner-column .image1 {
-    max-width: 200px;
+    width: 250px;
+    height: 40vh;
+    object-fit: cover;
   }
 }
 .about-section-three .image-column .inner-column .image2 {
@@ -6188,7 +6190,7 @@ textarea.form-control {
 }
 @media (max-width: 575px) {
   .about-section-three .image-column .inner-column .image2 {
-    max-width: 120px;
+    max-width: 150px;
   }
 }
 .about-section-three .image-column .inner-column .info {
@@ -6200,6 +6202,7 @@ textarea.form-control {
 @media (max-width: 575px) {
   .about-section-three .image-column .inner-column .info img {
     width: 180px;
+    display: none;
   }
 }
 .about-section-three .image-column .inner-column .shape-one {
@@ -11991,9 +11994,12 @@ Page Title
   margin-bottom: 30px;
 }
 
-@media (max-height: 800px) {
+@media (max-width: 800px) {
   .service-sidebar .service-sidebar-single {
-    height: 30vh;
+    height: 65vh !important;
+  }
+  .services-details{
+    padding-top: 22px !important;
   }
 }
 .service-sidebar .service-sidebar-single-services {
