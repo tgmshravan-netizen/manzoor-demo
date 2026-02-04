@@ -69,45 +69,40 @@
 }
 
 .pricing-section .pricing-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: flex-start;
-}
-
-.pricing-section .price-label {
-  flex-basis: 100%;
-  width: 100%;
-}
-
-.pricing-section .pricing-info .price-row {
-  display: flex;
-  flex: 1;
-  min-width: 50px;
-  align-items: center;
-}
-
-.pricing-section .pricing-info .price-row .price-line {
-  white-space: normal;
-  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
 }
 
 .pricing-section .price-label {
   font-size: 12px;
+  grid-column: 1 / -1;
   color: #999;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.pricing-section .pricing-info .price-row {
+  display: block;
+}
+
+.pricing-section .pricing-info .price-row .price-line {
+  white-space: normal;
+  font-size: 13px;
+  display: block;
+  line-height: 1.6;
 }
 
 .pricing-section .price-row {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 16px;
+  display: inline-block;
+  margin-right: 24px;
 }
 
 .pricing-section .price-row .price-line {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
