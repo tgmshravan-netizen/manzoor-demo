@@ -21,7 +21,9 @@
   height: 100%;
   transition: all 0.3s ease;
   border: 2px solid #d9bb73;
+  min-width: 0;
 }
+
 
 .pricing-section .pricing-package:first-child .pricing-card {
   border: 2px solid #d9bb73;
@@ -36,6 +38,7 @@
 .pricing-section .pricing-header {
   padding: 20px;
   border-bottom: 2px solid #f5f5f5;
+  overflow: hidden;
 }
 
 .pricing-section .package-title {
@@ -44,6 +47,8 @@
   color: #1c1a1d;
   margin: 0;
   line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .pricing-section .package-title a {
@@ -62,13 +67,18 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  overflow: hidden;
+  min-width: 0;
 }
+
 
 .pricing-section .pricing-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
   align-items: start;
+  width: 100%;
+  overflow: hidden;
 }
 
 .pricing-section .price-label {
@@ -83,14 +93,19 @@
 
 .pricing-section .pricing-info .price-row {
   display: block;
+  overflow: hidden;
+  width: 100%;
 }
 
 .pricing-section .pricing-info .price-row .price-line {
-  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   font-size: 13px;
   display: block;
   line-height: 1.6;
+  white-space: normal;
 }
+
 
 .pricing-section .price-row {
   display: inline-block;
